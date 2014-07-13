@@ -1,0 +1,17 @@
+# Site settings
+title: git kitty
+email: raleigh@gitkitty.com
+author: Raleigh D. Froeber
+description: "I don't know..."
+baseurl: ""
+url: "http://gitkitty.com"
+twitter_username: gitkitty
+github_username:  rdfroeber
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Markdown Renderer Options
+kramdown:
+  input: GFM
