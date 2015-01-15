@@ -1,17 +1,27 @@
-# Site settings
-title: git kitty
-email: raleigh@gitkitty.com
-author: Raleigh D. Froeber
-description: "I don't know..."
-baseurl: "http://rdfroeber.github.io/gitkitty"
-url: "http://gitkitty.com"
-twitter_username: gitkitty
-github_username:  rdfroeber
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Markdown Renderer Options
-kramdown:
-  input: GFM
+# Setup
+title:               git kitty
+tagline:             Hacking through NYC
+description:         I like building things.
+url:                 http://gitkitty.com
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              Raleigh D. Froeber
+  email:             raleigh@gitkitty.com
+  twitter:           gitkitty
+  github:            rdfroeber
+
+# Custom vars
+version:             1.0.0
