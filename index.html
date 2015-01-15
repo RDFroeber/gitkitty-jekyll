@@ -13,8 +13,11 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
+   {{ post.content | split:'<!--br-->' | first }}
 
-    {{ post.content }}
+   {% if post.content contains '<!--br-->' %}
+      <a href="{{ post.url }}">Read more</a>
+   {% endif %}
   </div>
   {% endfor %}
 </div>

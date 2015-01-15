@@ -11,10 +11,11 @@ relative_permalinks: true
 # Setup
 title:               git kitty
 tagline:             Hacking through NYC
-description:         I like building things.
+description:         'An attempt to organize notes, thoughts, explorations, and solutions in one place where all can see.'
 url:                 http://gitkitty.com
 baseurl:             /
 paginate:            5
+github_repo:         https://github.com/RDFroeber/gitkitty-jekyll
 
 # About/contact
 author:
