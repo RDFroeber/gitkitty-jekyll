@@ -10,6 +10,10 @@
   -webkit-text-size-adjust: none;
 }
 
+.hljs.bash {
+  background: #F7F7F7; /* Bash Background */
+}
+
 .profile .hljs-header *,
 .ini .hljs-title,
 .nginx .hljs-title {
@@ -59,7 +63,7 @@
 }
 
 .hljs-title,
-.hljs-built_in,
+.javascript .hljs-built_in,
 .hljs-literal,
 .hljs-type,
 .hljs-typename,
@@ -90,7 +94,7 @@
 .hljs-winutils,
 .tex .hljs-command,
 .hljs-request,
-.hljs-status, .o {
+.hljs-status, .javascript .o {
   color: #F02454; /* Keywords */
 }
 
@@ -152,4 +156,8 @@
 .css .hljs-value,
 .css .hljs-attribute {
   color: #51EDDB; /* Text */
+}
+
+.hljs.bash {
+  color: #F02454;
 }
