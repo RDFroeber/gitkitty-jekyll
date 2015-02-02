@@ -58,6 +58,7 @@
   color: #EDF55F; /* Numbers */
 }
 
+.hljs-title,
 .hljs-built_in,
 .hljs-literal,
 .hljs-type,
@@ -89,7 +90,7 @@
 .hljs-winutils,
 .tex .hljs-command,
 .hljs-request,
-.hljs-status {
+.hljs-status, .o {
   color: #F02454; /* Keywords */
 }
 
@@ -97,7 +98,6 @@
   color: #FFFFFF; /* Function Keywords */
 }
 
-.hljs-title,
 .ruby .hljs-constant,
 .vala .hljs-constant,
 .hljs-parent,
