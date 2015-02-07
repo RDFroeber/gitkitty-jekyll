@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-## about me
 I'm a software engineer working at an R&D agency. My favorite technologies to play with include Node.js and JS frameworks like Hapi and Sails. I'm currently working on an e-Commerce platform for a small jewelry business and lots of little side projects. In addition to learning about other languages, I also volunteer with groups like [Women Who Code NY](https://twitter.com/WomenWhoCodeNYC) and [Code and Cupcakes](https://twitter.com/codecupcakeschi) in my free time.
 
 ## how I got here
