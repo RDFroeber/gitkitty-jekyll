@@ -98,7 +98,8 @@
   color: #F02454; /* Keywords */
 }
 
-.kd .hljs-keyword {
+.kd .hljs-keyword,
+.hljs-regexp {
   color: #FFFFFF; /* Function Keywords */
 }
 
