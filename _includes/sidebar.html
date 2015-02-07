@@ -5,7 +5,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+    <p itemprop="description">{{ site.description }}</p>
     <p>#happyhacking</p>
   </div>
 
@@ -52,12 +52,12 @@
         c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
       </svg> {{ site.author.twitter }}</span></a>
     <span class="sidebar-nav-item rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></span>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <span class="sidebar-nav-item" itemprop="version">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item copywrite">
     <p>
-      &copy; {{ site.time | date: '%Y' }} Raleigh D. Froeber<br /> All rights reserved.
+      &copy; <span itemprop="copyrightYear">{{ site.time | date: '%Y' }}</span> <span itemprop="copyrightHolder">Raleigh D. Froeber<span><br /> All rights reserved.
     </p>
   </div>
 </div>

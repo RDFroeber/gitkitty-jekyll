@@ -5,18 +5,18 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
+  <div class="post" itemscope itemtype="http://schema.org/blogPost">
+    <h1 class="post-title" itemprop="headline">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date" itemprop="datePublished">{{ post.date | date_to_string }}</span>
    {{ post.content | split:'<!--br-->' | first }}
 
    {% if post.content contains '<!--br-->' %}
-      <a href="{{ post.url }}">Read more</a>
+      <a  itemprop="url" href="{{ post.url }}">Read more</a>
    {% endif %}
   </div>
   {% endfor %}
