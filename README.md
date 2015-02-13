@@ -7,3 +7,4 @@ Git kitty is the name of my blog. This space acts as a place to organize notes, 
 1. theming my site
 2. muse: a CMS scaffolding tool
 3. muse: breaking down the pieces
+4. hapi.js: API documentation and validation with joi and swagger
